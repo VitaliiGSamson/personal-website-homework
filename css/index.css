@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+body {
+    font-family: 'Permanent Marker', cursive;
+    margin: auto;
+    max-width: 1200px;
+    min-width: 500px;
+}
+
+.main-header {
+    background-image: url(../img/diamond.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    height: 100vh;
+}
+
+.menu {
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media (min-width:500px) {
+    .menu {
+        justify-content: center;
+    }
+}
+
+.menu a {
+    text-decoration: none;
+    color:white;
+    padding: 0 1%;
+    margin-top: 30px;
+}
+
+@media (min-width:500px) {
+    .menu a {
+        padding: 0 3%;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+}
+
+.menu a:hover {
+    color: red;
+    transition: all 1s ease;
+}
+
+.titles h1 {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+
+.titles__first {
+    font-size: 3rem;
+}
+
+.titles__second {
+    color:white;
+    text-align: center;
+}
+
+@media (min-width:500px) {
+    .titles .titles__first {
+        font-size: 5rem;
+    }
+}
+
+.titles__second {
+    font-size: 1.5rem;
+    margin-top: -30px;
+}
+
+
+@media (min-width:500px) {
+    .titles .titles__second {
+        font-size: 2.5rem;
+    }
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+.services__item {
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media (min-width:500px) {
+    .services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:700px) {
+    .services {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.work__item {
+    text-align: center;
+    margin: 0 10px;
+}
+
+@media (min-width:700px) {
+    .works {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:700px) {
+    .work__item img {
+        display: block;
+        width: 100%;
+    }
+}
+
+.work__item h1 {
+    justify-content: center;  
+    text-align: center; 
+    margin-bottom: -20px; 
+}
+
+.work__item p {
+    justify-content: center;  
+    text-align: center;
+    
+}
+
+.contacts {
+    background: #545454;
+    padding: 5px 10px;
+}
+
+
+.contatcs__title h2 {
+    text-align: center;
+    color: white;
+}
+
+.contacts__drop-me {
+    margin-top: -20px;
+    color:white;
+    text-align: center;
+}
+
+
+@media (min-width:700px) {
+    .contacts-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.contacts__info {
+    color:white;
+}
+
+form input {
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    padding: 5px 0;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.contact__massage {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.contacts__submit {
+    background: none;
+    border: 4px solid white;
+    color:white;
+}
+
+.contacts__submit:hover {
+   color: #cccccc;
+   background: white;
+   transition: all 0.5s ease;
+}
+
+.contacts__links {
+    justify-content: center;
+    text-align: center;
+    color:white;
+}
+
+.contacts__links p {
+    margin-top: -20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width:700px){
+    .links {
+        justify-content: space-around;
+    }
+}
+
+footer {
+    background: #BCBBBB;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer p:hover {
+    color:white;
+}
