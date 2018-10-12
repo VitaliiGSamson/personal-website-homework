@@ -227,42 +227,6 @@ form input {
     }
 }
 
-
-.btn-up {
-    position: fixed;
-    bottom: 26px;
-    right: 100px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid #ccc;
-    background: #777779;
-    z-index: 100;
-    outline: 0;
-}
-
-.btn-up:after {
-    content: '';
-    width: 10px;
-    height: 10px;
-    border-top: 2px solid #ccc;
-    border-left: 2px solid #ccc;
-    transform: rotate(45deg);
-    position: absolute;
-    top: 4px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-@media (max-width:700px){
-    .btn-up {
-        display: none;
-    }
-}
-
-
 footer {
     background: #BCBBBB;
     padding-top: 5px;
